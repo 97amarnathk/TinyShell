@@ -1,6 +1,5 @@
-################
-CS:APP Shell Lab
-################
+# CS:APP Shell Lab
+
 
 Files:
 
