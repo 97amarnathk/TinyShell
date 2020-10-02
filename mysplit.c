@@ -22,7 +22,7 @@ int main(int argc, char **argv)
     secs = atoi(argv[1]);
 
 
-    if (fork() == 0) { /* child */
+    if (!fork()) { /* child */
 	for (i=0; i < secs; i++)
 	    sleep(1);
 	exit(0);
